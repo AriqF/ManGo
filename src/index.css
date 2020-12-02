@@ -1,0 +1,127 @@
+body, html{
+    height: 100%;
+    scroll-behavior: smooth;
+
+}
+.navbar{
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.35);
+    z-index: 999;
+    width: 100%;
+    position: fixed;
+    min-width: 1280px;  
+}
+.nav-item{
+    font-size: large;
+    margin: auto 6px;
+    font-family: Helvetica;  
+}
+.nav-item:nth-of-type(3n){
+    margin-right: 40px;
+}
+#dropdown{
+    background-color: rgba(17, 17, 17, 0.75);
+}
+#dropdownItem{
+    color: white;
+}
+#dropdownItem:hover{
+    color: #E7E7E7;
+}
+#brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 26px
+}
+.pagehead{
+    /*if bg img not available*/
+    background-color: #FAD961;
+    background-image: linear-gradient(13deg, #FAD961 43%, #F76B1C 100%);
+
+    background-image: url("img/bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+}
+#startbtn, #startbtn2{
+    font-size: 18px;
+    min-height: auto;
+    width: 25%;
+    border-style: solid;
+    border-radius: 8px;
+    border-width: 0 0 4px;
+    margin-top: 10px ;
+}
+#startbtn{
+    background-color: #58CC02;
+    border-color: #56CA00;   
+}
+#startbtn2{
+    background-color: #0BA8F4;
+    border-color: #0D9DE3;
+
+}
+#startbtn:hover{
+    background-color: #73EB1B;
+} 
+#startbtn2:hover{
+    background-color:  #4FC5FF;
+}
+#modal{
+    color: black;
+}
+.jumbotron{
+    padding: 40px 20px auto 20px;
+    height: 120vh;
+    background-color: white;
+    color: black;
+}
+.ml3{
+    font-weight: 900;
+}
+hr{
+    width: 80%;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    background-color: #8E928B;
+}
+.list li{
+    margin-top: 5px;
+}
+#pagefoot{
+    height: 50vh;
+    background-color: #262626;
+    color: white;
+    margin-top: 160px;
+}
+#mascot3{
+    padding: 0px 15px 10px 50px;
+}
+#page2row{
+    margin-top: 130px;
+}
+footer{
+    background-color: #262626;
+    color: white;
+}
+
+/*mdbootstrap*/
+
+
+
+
+
+
+
+
+
+
+
+
+
