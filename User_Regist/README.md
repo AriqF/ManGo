@@ -12,7 +12,7 @@
         token type varchar(100)
         password type varchar(100)
 
-2.) Setelah itu download composer, karena kita nantinya akan menggunakan library dari swift mailer, cara download : https://www.youtube.com/watch?v=tb8b7AMnk1g&list=LL&index=7 atau jika masih bingung versi bahasa indonya https://www.youtube.com/watch?v=15XYja-juSA&list=LL&index=6 
+2.) Setelah itu download composer, karena kita nantinya akan menggunakan library dari swift mailer, cara download : https://www.youtube.com/watch?v=tb8b7AMnk1g atau jika masih bingung versi bahasa indonya https://www.youtube.com/watch?v=15XYja-juSA&t=1s
 
 # Setting Manual 
 1.) Masuk ke file `controllers/emailController.php` , pada line ke 11-13 terdapat konfigurasi email. disitu anda diminta untuk memasukkan email dan password anda sebagai si pengirim verifikasi email. contoh :
