@@ -86,8 +86,8 @@
                     Do You Already Have An Account?
                   </div>
                   <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" href="#">Yes</button>
-                    <button type="button" class="btn btn-primary" href="#">Nope, Let Me Sign Up</button>
+                    <a href="User_Regist/index1.php" style="color: white;" ><button type="button" class="btn btn-secondary">Yes</button></a>
+                    <a href="User_Regist/signup.php" style="color: white;"><button type="button" class="btn btn-primary">Nope, Let Me Sign Up</button></a>
                   </div>
                 </div>
               </div>
