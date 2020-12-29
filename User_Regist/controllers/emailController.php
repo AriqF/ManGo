@@ -9,8 +9,8 @@ require_once 'config/constants.php';
 
 // Create the Transport
 $transport = (new Swift_SmtpTransport('smtp.gmail.com', 465, 'ssl'))
-  ->setUsername("email@example.com")
-  ->setPassword("xxxxxxxxxxxxx");
+  ->setUsername("alifw50@gmail.com")
+  ->setPassword("onepiece00");
 
 // Create the Mailer using your created Transport
 $mailer = new Swift_Mailer($transport);
@@ -34,7 +34,7 @@ function SendVerificationEmail($userEmail, $token)
                 Thank you for signing up on our website. Please click on the link below
                 to verify your Email.
             </p>
-            <a href="http://localhost/User_Regist/index.php?token=' . $token . '">
+            <a href="http://localhost/ManGo-main/User_Regist/index1.php?token=' . $token . '">
                 Verify Your Email Address
             </a>
         </div>
@@ -44,7 +44,7 @@ function SendVerificationEmail($userEmail, $token)
 
     // Create a message
     $message = (new Swift_Message('Verify Your Email Address'))
-    ->setFrom("email@example.com")
+    ->setFrom("alifw50@gmail.com")
     ->setTo($userEmail)
     ->setBody($body, 'text/html');
 
@@ -71,7 +71,7 @@ function SendPasswordResetLink($userEmail, $token)
 
                 Please click on the link below to reset your password.
             </p>
-            <a href="http://localhost/User_Regist/index.php?password-token=' . $token . '">
+            <a href="http://localhost/ManGo-main/User_Regist/index1.php?password-token=' . $token . '">
                 Reset your password
             </a>
         </div>
@@ -81,7 +81,7 @@ function SendPasswordResetLink($userEmail, $token)
 
     // Create a message
     $message = (new Swift_Message('Reset your password'))
-    ->setFrom("email@example.com")
+    ->setFrom("alifw50@gmail.com")
     ->setTo($userEmail)
     ->setBody($body, 'text/html');
 

@@ -68,7 +68,7 @@ if (isset($_POST['signup-btn'])) {
         // flash message
         $_SESSION['message'] = "You are now logged in";
         $_SESSION['alert-class'] = "alert-success";
-        header('location: index.php');
+        header('location: index1.php');
         exit();
         } else{
             $errors['db_error'] = "Database error: failed to register";
@@ -108,7 +108,7 @@ if (isset($_POST['login-btn'])) {
             // flash message
             $_SESSION['message'] = "You are now logged in";
             $_SESSION['alert-class'] = "alert-success";
-            header('location: index.php');
+            header('location: index1.php');
             exit();
     
         } else {
@@ -150,7 +150,7 @@ function verifyUser($token)
             // flash message
             $_SESSION['message'] = "Your Email was Succesfully verified";
             $_SESSION['alert-class'] = "alert-success";
-            header('location: index.php');
+            header('location: index1.php');
             exit();
         }
     } else {
