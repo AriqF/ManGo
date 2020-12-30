@@ -21,7 +21,7 @@
 
             <h1>Recover Your Password</h1>
 
-            <p>
+            <p style="text-align: center;">
                 Please enter your email address you used to sign in up on this site 
                 and we will assists you in recovering your password
             </p>
