@@ -22,16 +22,16 @@ if (isset($_POST['signup-btn'])) {
     $errors['username'] = "Username Required";
     }
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $errors['email'] = "Email address is invalid";
+        $errors['email'] = "<font color='red'; > Email Address Is Invalid </font>";
     }
     if (empty($email)) {
-        $errors['email'] = "Email Required";
+        $errors['email'] = "<font color='red'; > Email Required </font>";
     }
     if (empty($password)) {
-        $errors['password'] = "Password Required";
+        $errors['password'] = "<font color='red'; > Password Required </font>";
     }
     if ($password !== $passwordConf) {
-        $errors['password'] = "The password don't match";
+        $errors['password'] = "<font color='red'; > The Password do not match </font>";
     }
 
     $emailQuery = "SELECT * FROM users WHERE email=? LIMIT 1";
@@ -43,7 +43,7 @@ if (isset($_POST['signup-btn'])) {
     $stmt->close();
 
     if ($userCount > 0) {
-        $errors['email'] = "Email already exists";
+        $errors['email'] = "<font color='red'; > Email already exists </font>";
     }
 
     if (count($errors) === 0){
@@ -71,7 +71,7 @@ if (isset($_POST['signup-btn'])) {
         header('location: index1.php');
         exit();
         } else{
-            $errors['db_error'] = "Database error: failed to register";
+            $errors['db_error'] = "<font color='red'; > Database error: failed to register </font>";
         }
     }
 
@@ -85,10 +85,10 @@ if (isset($_POST['login-btn'])) {
 
     // validation
     if (empty($username)) {
-    $errors['username'] = "Username Required";
+    $errors['username'] = "<font color='red'; > Username Required </font>";
     }
     if (empty($password)) {
-        $errors['password'] = "Password Required";
+        $errors['password'] =  "<font color='red'; > Password Required </font>";
     }
 
     if (count($errors) === 0) {
@@ -112,7 +112,7 @@ if (isset($_POST['login-btn'])) {
             exit();
     
         } else {
-            $errors['login_fail'] = "Wrong Credentials";
+            $errors['login_fail'] = "<font color='red'; >Wrong Credentials </font>";
         }
         
     }
@@ -164,10 +164,10 @@ if (isset($_POST['forgot-password'])) {
     $email = $_POST['email'];
 
     if (!filter_var($email,FILTER_VALIDATE_EMAIL)) {
-        $errors['email'] = "Email address is invalid";
+        $errors['email'] = "<font color='red'; > Email Address Is Invalid </font>";
     }
     if (empty($email)) {
-        $errors['email'] = "Email Required";
+        $errors['email'] = "<font color='red'; > Email Required </font>";
     }
     if (count($errors) === 0) {
         $sql = "SELECT * FROM users WHERE email='$email' LIMIT 1";
@@ -188,10 +188,10 @@ if (isset($_POST['reset-password-btn'])) {
     $passwordConf = $_POST['passwordConf'];
 
     if (empty($password) || empty($passwordConf)) {
-        $errors['password'] = "Password Required";
+        $errors['password'] = "<font color='red'; > Password Required </font>";
     }
     if ($password !== $passwordConf) {
-        $errors['password'] = "The password don't match";
+        $errors['password'] = "<font color='red'; > The Password do not match </font>";
     }
 
     $password = password_hash($password, PASSWORD_DEFAULT);

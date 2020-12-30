@@ -1,26 +1,66 @@
-.form-div {
-
-    margin: 50px auto 50px;
-    padding: 25px 15px 10px 15px;
-    border: 1px solid #80ced7;
-    border-radius: 5px;
-    font-size: 1.1em;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-.form-control:focus {
-    box-shadow: none;
+body{
+    font-family: "Open Sans";
+    color: #fff;
 }
-
-.form p {
-    font-size: .89em;
+section{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: url("img/bg_gif.gif");
+    background-size: cover;
+    background-position: center center;
 }
-
-.form-div.login {
-    margin-top: 100px;
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+    width: 380px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    box-shadow:7px 7px 60px #000;
 }
-
-.logout {
-    color: red;
+h1{
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.control input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    color: #222;
+    border: none;
+    outline: none;
+    margin: 1em 0;
+}
+.control input[type="submit"]{
+    background: crimson;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    opacity: .7;
+    transition: opacity .3s ease;
+}
+.control input[type="submit"]:hover{
+    opacity: 1;
+}
+.link{
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: #fff;
+    opacity: .6;
+    transition: opacity .3s ease;
+}
+.link a:hover{
+    opacity: 1;
 }
