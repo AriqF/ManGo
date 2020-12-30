@@ -52,7 +52,7 @@ if (!isset($_SESSION['id'])) {
             </div>
         <?php endif; ?>
 
-            <h3>Welcome, <?php echo $_SESSION['username']; ?> </h3>
+            <h3 style="color: black;">Welcome, <?php echo $_SESSION['username']; ?> </h3>
 
             <a href="index1.php?logout=1" class="logout">logout</a>
             
