@@ -184,7 +184,7 @@
             <a href="#!">Farhan Dwi Amugerah</a>         
           </li>
           <li>
-            <a href="#!">M. Alif Hidayatullah</a>         
+            <a href="github.com/muhammadalifh">M. Alif Hidayatullah</a>         
           </li>
         </ul>
 
