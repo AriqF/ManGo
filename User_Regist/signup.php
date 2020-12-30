@@ -35,7 +35,7 @@
                 </div>
                 <div class="control">
                     <label for="passwordConf">Confirm Password</label>
-                    <input type="passwordConf" name="passwordConf" class="passwordConf" placeholder="Confirm Password">
+                    <input type="password" name="passwordConf" class="passwordConf" placeholder="Confirm Password">
                 </div>
                 <div class="control">
                     <input type="submit" value="Sign Up" class="button" name="signup-btn">
