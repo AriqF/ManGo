@@ -26,14 +26,6 @@
                 and we will assists you in recovering your password
             </p>
 
-            <?php if (count($errors) > 0): ?>
-                 <div class="alert alert-danger">
-                    <?php foreach($errors as $error): ?>
-                    <li><?php echo $error; ?></li>
-                    <?php endforeach; ?>
-                 </div>
-            <?php endif; ?>
-
             <form class="form" action="forgot_password.php" method="post">
  
                 <div class="control">
