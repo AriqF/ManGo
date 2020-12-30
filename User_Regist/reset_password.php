@@ -27,7 +27,7 @@
                 </div>
                 <div class="control">
                     <label for="passwordConf">Confirm Password</label>
-                    <input type="passwordConf" name="passwordConf" class="passwordConf" placeholder="Confirm Password">
+                    <input type="password" name="passwordConf" class="passwordConf" placeholder="Confirm Password">
                 </div>
                 <div class="control">
                     <input type="submit" value="Reset Password" class="button" name="reset-password-btn">
