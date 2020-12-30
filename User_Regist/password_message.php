@@ -11,7 +11,7 @@
     <section>
         <div class="form-container">
             <h1>Check Your Email</h1>
-            <p>
+            <p style="text-align: center;">
                 An email has been sent to your email address to with a link to reset your
                 password.
             </p>
