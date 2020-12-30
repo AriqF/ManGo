@@ -45,6 +45,19 @@ if (isset($_POST['signup-btn'])) {
     if ($userCount > 0) {
         $errors['email'] = "<font color='red'; > Email already exists </font>";
     }
+    
+    $usernameQuery = "SELECT * FROM users WHERE username=? LIMIT 1";
+    $stmt = $conn->prepare($usernameQuery);
+    $stmt->bind_param('s',$username);
+    $stmt->execute();
+    $result = $stmt->get_result();
+    $userCount = $result->num_rows;
+    $stmt->close();
+
+    if ($userCount > 0) {
+        $errors['username'] = "<font color='red'; > Username already exists </font>";
+    }
+
 
     if (count($errors) === 0){
         $password = password_hash($password, PASSWORD_DEFAULT);
