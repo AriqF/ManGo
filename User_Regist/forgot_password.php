@@ -25,7 +25,7 @@
                 Please enter your email address you used to sign in up on this site 
                 and we will assists you in recovering your password
             </p>
-
+            <br>
             <form class="form" action="forgot_password.php" method="post">
  
                 <div class="control">
