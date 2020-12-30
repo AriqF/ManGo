@@ -11,15 +11,16 @@
     <section>
         <div class="form-container">
 
-        <?php if (count($errors) > 0): ?>
+            <h1>R e s e t &nbsp; Y o u r <br> P a s s w o r d</h1>
+            
+             <?php if (count($errors) > 0): ?>
                  <div class="alert alert-danger">
                     <?php foreach($errors as $error): ?>
                     <li><?php echo $error; ?></li>
                     <?php endforeach; ?>
                  </div>
             <?php endif; ?>
-
-            <h1>R e s e t &nbsp; Y o u r <br> P a s s w o r d</h1>
+            
             <form class="form" action="reset_password.php" method="post">
                 <div class="control">
                     <label for="password">Password</label>
