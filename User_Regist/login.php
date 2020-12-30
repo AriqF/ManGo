@@ -11,7 +11,7 @@
     <section>
         <div class="form-container">
             
-            <h1>login</h1>
+            <h1>l o g i n</h1>
 
             <?php if (count($errors) > 0): ?>
                  <div class="alert alert-danger">
@@ -31,7 +31,7 @@
                     <input type="password" name="password" class="password" placeholder="Password">
                 </div>
                 <div class="control">
-                    <input type="submit" value="Login" class="button" name="login-btn">
+                    <input type="submit" value="L o g i n" class="button" name="login-btn">
                 </div>
             </form>
             

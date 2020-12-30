@@ -19,7 +19,7 @@
                  </div>
             <?php endif; ?>
 
-            <h1>Reset Your Password</h1>
+            <h1>R e s e t &nbsp; Y o u r <br> P a s s w o r d</h1>
             <form class="form" action="reset_password.php" method="post">
                 <div class="control">
                     <label for="password">Password</label>
@@ -30,7 +30,7 @@
                     <input type="password" name="passwordConf" class="passwordConf" placeholder="Confirm Password">
                 </div>
                 <div class="control">
-                    <input type="submit" value="Reset Password" class="button" name="reset-password-btn">
+                    <input type="submit" value="R e s e t  P a s s w o r d" class="button" name="reset-password-btn">
                 </div>
             </form>
         </div>

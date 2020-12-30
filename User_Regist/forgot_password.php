@@ -19,21 +19,21 @@
                  </div>
             <?php endif; ?>
 
-            <h1>Recover Your Password</h1>
-
+            <h1>R e c o v e r &nbsp; Y o u r &nbsp; P a s s w o r d</h1>
             <p style="text-align: center;">
                 Please enter your email address you used to sign in up on this site 
-                and we will assists you in recovering your password
+                and we will assists you in recovering your password.
             </p>
             <br>
+
             <form class="form" action="forgot_password.php" method="post">
  
                 <div class="control">
                     <label for="email">Email</label>
-                    <input type="email" name="email" class="email"  placeholder="Email">
+                    <input type="email" name="email"  placeholder="Email">
                 </div>
                 <div class="control">
-                    <input type="submit" value="Recover Password" class="button" name="forgot-password">
+                    <input type="submit" value="R e c o v e r  &nbsp; P a s s w o r d" class="button" name="forgot-password">
                 </div>
 
             </form>

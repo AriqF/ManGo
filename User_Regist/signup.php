@@ -11,7 +11,7 @@
     <section>
         <div class="form-container">
 
-            <h1>Sign Up</h1>
+            <h1>S i g n &nbsp; U p</h1>
 
             <?php if (count($errors) > 0): ?>
                  <div class="alert alert-danger">
@@ -20,7 +20,7 @@
                     <?php endforeach; ?>
                  </div>
             <?php endif; ?>
-            
+
             <form class="form" action="signup.php" method="post">
                 <div class="control">
                     <label for="username">Name</label>
@@ -39,7 +39,7 @@
                     <input type="password" name="passwordConf" class="passwordConf" placeholder="Confirm Password">
                 </div>
                 <div class="control">
-                    <input type="submit" value="Sign Up" class="button" name="signup-btn">
+                    <input type="submit" value="S i g n  U p" class="button" name="signup-btn">
                 </div>
             </form>
             

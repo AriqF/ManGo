@@ -10,7 +10,7 @@
 <body>
     <section>
         <div class="form-container">
-            <h1>Check Your Email</h1>
+            <h1>C h e c k &nbsp; Y o u r <br> E m a i l</h1>
             <p style="text-align: center;">
                 An email has been sent to your email address to with a link to reset your
                 password.
