@@ -19,7 +19,7 @@ if (isset($_POST['signup-btn'])) {
 
     // validation
     if (empty($username)) {
-    $errors['username'] = "Username Required";
+    $errors['username'] = "<font color='red'; > Username Required </font>";
     }
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $errors['email'] = "<font color='red'; > Email Address Is Invalid </font>";
