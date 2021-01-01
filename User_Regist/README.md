@@ -33,8 +33,9 @@
 jika waktu mencoba dan terjadi error pada gambar tersebut, itu di karenakan pada kondisi tersebut jika user mencoba mengakses suatu Username atau email yang tidak terdaftar serta password yang di masukkan salah ❌ maka akan muncul **wrong credentials**,tetapi untuk PHP versi 7.4 keatas akan terdapat peringatan seperti pada gambar. untuk cara mengatasinya anda bisa downgrade PHP anda terlebih dahulu, caranya : 
 
 https://www.youtube.com/watch?v=wtgiEluCbhc
+
 dan seharusnya jika berhasil akan menjadi seperti berikut: 
-![WhatsApp Image 2020-12-28 at 11 31 45]
-(https://user-images.githubusercontent.com/61005674/103190656-7e254280-4904-11eb-85c3-8d7c47f1e551.jpeg)
+
+![WhatsApp Image 2020-12-28 at 11 31 45](https://user-images.githubusercontent.com/61005674/103190656-7e254280-4904-11eb-85c3-8d7c47f1e551.jpeg)
 
 sebenarnya juga tidak perlu melakukan downgrade, tetapi harus melakukan perubahan pada code nya. karena disini masih belum ketemu solusinya, maka solusi utama yaitu harus downgrade. tidak menutup kemungkinan jika anda ingin memperbaiki codenya :D.
