@@ -30,7 +30,7 @@
 # Penting!!!!!!!
 ![WhatsApp Image 2020-12-28 at 10 34 14](https://user-images.githubusercontent.com/61005674/103190503-d4de4c80-4903-11eb-9001-60db00075f9e.jpeg)
 
-jika waktu mencoba dan terjadi error pada gambar tersebut, itu di karenakan pada kondisi tersebut jika user mencoba mengakses suatu Username atau email yang tidak terdaftar serta password yang di masukkan salah ❌ maka akan muncul **wrong credentials**,tetapi untuk PHP versi 7.4 keatas akan terdapat peringatan seperti pada gambar. untuk cara mengatasinya anda bisa downgrade PHP anda terlebih dahulu, caranya : 
+jika waktu mencoba dan terjadi error pada gambar tersebut, itu di karenakan pada kondisi tersebut jika user mencoba mengakses suatu Username atau email yang tidak terdaftar serta password yang di masukkan salah ❌ maka akan muncul  **Wrong credentials** ,tetapi untuk PHP versi 7.4 keatas akan terdapat peringatan seperti pada gambar. untuk cara mengatasinya anda bisa downgrade PHP anda terlebih dahulu, caranya : 
 
 https://www.youtube.com/watch?v=wtgiEluCbhc
 
