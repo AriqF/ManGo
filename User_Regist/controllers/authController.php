@@ -58,7 +58,6 @@ if (isset($_POST['signup-btn'])) {
         $errors['username'] = "<font color='red'; > Username already exists </font>";
     }
 
-
     if (count($errors) === 0){
         $password = password_hash($password, PASSWORD_DEFAULT);
         $token =  bin2hex(random_bytes(50));

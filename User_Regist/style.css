@@ -1,73 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+body{
+	margin:0;
+	font-family: sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background: url("img/bg_gif.gif");
+	background-position: center center;
+	position: relative;
+	background-size: cover;
+	padding:15px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+}
 
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	box-sizing: border-box;
+	outline: none;
 }
-body{
-    font-family: 'Ubuntu', sans-serif;
-    color: #fff;
+form{
+	width:400px;
+	box-shadow:7px 7px 60px #000;
+	background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
+	padding:40px 40px 40px;
+    display: flex;
+    flex-direction: column;
+	border-radius: 50px;
+	
 }
-section{
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    background: url("img/bg_gif.gif");
-    background-size: cover;
-    background-position: center center;
+form h1{
+	margin:0 0 20px;
+	text-align: center;
+	color:rgb(255, 255, 255);
 }
-.form-container{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3));
-    width: 380px;
-    padding: 50px 30px;
-    border-radius: 50px;
-    box-shadow:7px 7px 60px #000;
+form .form-field{
+	margin-bottom:40px;
+	width: 100%;
+	position: relative;
 }
-h1{
-    text-transform: uppercase;
-    font-size: 2em;
-    text-align: center;
-    margin-bottom: 2em;
+form .form-field:last-child{
+	margin-bottom:0;
 }
-input{
-    margin: 20px 0;
-    padding: 10px;
-    background: transparent;
-    border: none;
-    outline: none;
-    color: #fff;
-    border-bottom: 1px solid #fff;
+form .form-field label{
+	position: absolute;
+	left:0;
+	top:12px;
+	color: rgb(255, 255, 255);
+	transition: all .5s ease;
+	pointer-events: none; 
 }
-.control input{
-    width: 100%;
-    display: block;
-    padding: 10px;
-    border: none;
-    outline: none;
-    margin: 1em 0;
-    border-bottom: 1px solid #fff;
-    
+form .form-field.active label{
+	color:crimson;
+	top:-18px;
 }
-.control input[type="submit"]{
-    background: crimson;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1.2em;
+form .form-field .border-line{
+	position: absolute;
+	left:0;
+	bottom:0;
+	width:0;
+	height:2px;
+	background-color: crimson;
+    transition: all .5s ease;	
+}
+form .form-field.active .border-line{
+	width:100%;
+}
+
+form .form-field input{
+	height:40px;
+	font-size: 15px;
+	color:white;
+	width: 100%;
+	background-color: transparent;
+	border:none;
+	border-bottom:1px solid white;
+}
+
+form .form-field button{
+	height:40px;
+	width: 100%;
+	border:none;
+	background-color:crimson;
+	color:#ffffff;
+	border-radius: 15px;
+}
+
+.form-field button[type="submit"]{
+    font-weight: bold;
     opacity: .4;
     transition: opacity .7s ease;
     border-bottom: none;
     border-radius: 50px;
 }
-.control input[type="submit"]:hover{
-    opacity: .8;
+.form-field button[type="submit"]:hover{
+    opacity: .9;
 }
+
 .link{
     text-align: center;
+}
+.link p{
+    color: white;
 }
 .link a{
     text-decoration: none;
@@ -78,3 +112,14 @@ input{
 .link a:hover{
     opacity: 1;
 }
+ /*responsive*/
+
+@media(max-width: 500px){
+	form{
+		width: 100%;
+	}
+}
+
+
+
+

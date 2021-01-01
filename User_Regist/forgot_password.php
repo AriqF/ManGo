@@ -1,46 +1,59 @@
 <?php require_once 'controllers/authController.php'; ?>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forgot Password</title>
-    <link rel="stylesheet" href="style.css">
+<title>Forgot Password</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <section>
-        <div class="form-container">
 
-            <h1>R e c o v e r &nbsp; Y o u r &nbsp; P a s s w o r d</h1>
-            
-            <?php if (count($errors) > 0): ?>
+<form class="form" action="forgot_password.php" method="post">
+ <h1>R E C O V E R &nbsp; Y O U R &nbsp; P A S S W O R D</h1>
+
+	   <?php if (count($errors) > 0): ?>
                  <div class="alert alert-danger">
                     <?php foreach($errors as $error): ?>
                     <li><?php echo $error; ?></li>
                     <?php endforeach; ?>
                  </div>
-            <?php endif; ?>
-            
-            <p style="text-align: center;">
+		<?php endif; ?>
+		<br>
+        <br>
+        <p style="text-align: center; color: white;">
                 Please enter your email address you used to sign in up on this site 
                 and we will assists you in recovering your password.
             </p>
-            <br>
+        <br>
 
-            <form class="form" action="forgot_password.php" method="post">
+       <div class="form-field">
+ 	  	  <label>Email</label>
+ 	  	    <input type="email" name="email" class="input">
+ 	  	  <div class="border-line">
+ 	  	  </div>
+ 	  </div>
+
+ 	  <div class="form-field">
+			 <button type="submit" class="button" style="font-family: 'Ubuntu', sans-serif; font-size: 15px;" name="forgot-password">
+             R E C O V E R &nbsp; P A S S W O R D </button>
+	   </div>
+ </form>
  
-                <div class="control">
-                    <label for="email">Email</label>
-                    <input type="email" name="email"  placeholder="Email">
-                </div>
-                <div class="control">
-                    <input type="submit" value="R e c o v e r  &nbsp; P a s s w o r d" class="button" name="forgot-password">
-                </div>
+ <!-- using jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-            </form>
-            
+ <script>
+       $(document).ready(function(){
+       	  $(".input").focus(function(){
+       	  	 $(this).parent(".form-field").addClass("active")
+       	  })
+       	  $(".input").blur(function(){
+       	  	 if($(this).val()==""){
+       	  	   $(this).parent(".form-field").removeClass("active")
+       	  	}
+       	  })
+       })	
+ </script>
 
-        </div>
-    </section>
 </body>
 </html>
