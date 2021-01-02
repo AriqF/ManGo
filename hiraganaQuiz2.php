@@ -1,5 +1,5 @@
 <html>
-    <head>
+  <head>
         <title>Hiragana II</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -14,14 +14,16 @@
 
         <!--My css-->
         <link href="src/stylequiz.css" rel="stylesheet">
-        
+
+        <!--Font Kit Icon-->
+        <script src="https://kit.fontawesome.com/6f51fa838f.js" crossorigin="anonymous"></script>
+
         <!--google font-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
-    </head>
+  </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(17,17,17,0.75); box-shadow: 0 3px 7px 0 rgba(0,0,0,0.35); font-family: 'Poppins', sans-serif; font-size: 18px;">
             <a class="navbar-brand" href="#">Man-Go</a>
@@ -52,9 +54,12 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#">User Profile</a> <!--add userProfile.php later-->
+                  <a class="nav-link" href="userProfile.php">User Profile</a>
                 </li>
-                </ul>
+                <li class="nav-item">
+                  <a class="nav-link" href="userProfile.php" title="Log Out"><i class="fas fa-sign-out-alt" style="font-size: 1.4em;"></i></a> 
+                </li> 
+              </ul>
             </div>
         </nav>
 
@@ -119,5 +124,7 @@
     <script src="src/quizQuestion.js"></script>    
     <script src="src/app2.js"></script>
     </body>
+   
+    
     
 </html>
