@@ -14,6 +14,9 @@
 
         <!--My css-->
         <link rel="stylesheet" href="src/learnPageStyle.css">
+
+        <!--Font Kit Icon-->
+        <script src="https://kit.fontawesome.com/6f51fa838f.js" crossorigin="anonymous"></script>
         
         <!--google font-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -52,8 +55,11 @@
                         </li>
                         
                         <li class="nav-item">
-                        <a class="nav-link" href="#">User Profile</a> <!--add userProfile.php later-->
-                        </li>       
+                        <a class="nav-link" href="userProfile.php">User Profile</a> 
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" href="userProfile.php" title="Log Out"><i class="fas fa-sign-out-alt" style="font-size: 1.4em;"></i></a> 
+                        </li>    
                     </ul>        
                 </div>
             </nav>
@@ -274,5 +280,5 @@
                 </div>
             </div>
         </div>
-    </body>
+    </body> 
 </html>
