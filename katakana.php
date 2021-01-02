@@ -62,7 +62,7 @@
 
         <div class="content">
             <div class="container">
-                <div class="jumbotron" id="header">
+                <div class="jumbotron fadeInDown" id="header">
                     <h2>
                         Katakana
                     </h2>
@@ -73,15 +73,13 @@
                     <hr>
                     <p>
                         Jangan lupa scroll kebawah ya untuk latihan mengukur kemampuan Katakana mu!
-                    </p>
-                    
+                    </p>    
                 </div>
-
                 <div class="row">
                     <table class="table-sm">
                         <tbody>
                             <tr>
-                                <table class="table-sm mx-auto">    <!--left side table-->
+                                <table class="table-sm mx-auto fadeInRight">    <!--left side table-->
                                     <tbody> 
                                         <tr>
                                             <td><img class="img-fluid" src="src/img//kata/a.png"></td>
@@ -142,11 +140,10 @@
                                     </tbody>
                                 </table>
                             </tr>
-                            <tr class="spacer">
-                                
+                            <tr class="spacer">                       
                             </tr>
                             <tr>  
-                                <table class="table-sm mx-auto">    <!--Right side table-->
+                                <table class="table-sm mx-auto fadeInLeft">    <!--Right side table-->
                                     <tbody>
                                         <tr>
                                             <td><img class="img-fluid" src="src/img//kata/ga.png"></td>
@@ -206,7 +203,6 @@
             </div>
         </div>
         </div>
-
         <div class="container" id="contentBox">
             <h3>Tips &#9872;</h3>
             <hr style="border-top: 1px solid white;">
@@ -229,9 +225,7 @@
                     <li>カーペット　= Kāpetto = Kaapetto</li>
                 </ul>
             </p>
-        </div>
-
-        
+        </div>    
         <div class="container" id="contentBox">
             <h3>Latihan Katakana I</h3>
             <hr style="border-top: 1px solid white;">
@@ -240,8 +234,6 @@
             </p>
             <button type="button" class="btn btn-primary" href=""><a class="nav-link" href="katakanaQuiz1.php">Mulai Quiz &#8594;</a></button>
         </div>
-
-
         <div class="container" id="contentBox">
             <h3>Latihan Katakana II</h3>
             <hr style="border-top: 1px solid white;">
@@ -249,10 +241,8 @@
                 Pada latihan ini kamu akan diminta untuk merubah kata Romaji menjadi Katakana.<br> Ayo mulai latihan untuk mengukur kemampuanmu!
             </p>
             <button type="button" class="btn btn-primary"><a class="nav-link" href="katakanaQuiz2.php">Mulai Quiz &#8594;</a></button>
-        </div>  
-        
+        </div>        
         <!--Footer-->
-
         <div class="jumbotron footer" style="width: 100%; margin: 0">
             <div class="container-fluid text-center text-md-left">
                 <div class="row">
@@ -283,9 +273,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        
-    </body>
-
-    
+        </div>      
+    </body>  
 </html>
