@@ -1,5 +1,5 @@
 # Aturan Main
-1.) Sebelum anda membuka file **User_Regist** berikut, anda harus membuat database dengan ketentuan berikut :
+1.) Sebelum anda membuka file **User_Regist** berikut, anda harus membuat database menggunakan Mysql/PHPmyadmin dengan ketentuan berikut :
 
     a.) nama database:
         user-verification
@@ -11,7 +11,7 @@
         verified type tinyint(4)
         token type varchar(100)
         password type varchar(100)
-
+        
 2.) Setelah itu download composer, karena kita nantinya akan menggunakan library dari swift mailer, cara download : https://www.youtube.com/watch?v=tb8b7AMnk1g atau jika masih bingung versi bahasa indonya https://www.youtube.com/watch?v=15XYja-juSA&t=1s
 
 # Setting Manual 
