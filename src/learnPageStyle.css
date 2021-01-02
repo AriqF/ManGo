@@ -1,0 +1,79 @@
+body{
+    background-color: #E0E0E0;;
+}
+.dropdown-item:hover{
+    background-color: #ACACAC;
+}
+
+table img{
+    width: 52.5px;
+    height: 77px;
+    border-radius: 8px;
+    box-shadow: 0 3px 7px 0 rgba(0,0,0,0.35);
+    transition: transform .4s;
+    cursor: pointer;
+}
+table img:hover{
+    transform: scale(1.14);
+}
+.content{
+    width: 100%;
+    padding:20px;
+    min-height: 100vh;
+    transition: all 0.3s;
+    
+}
+.container{
+    background-color: #7565F7;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 12px;
+    box-shadow: 2px 5px 9px 0 rgba(0,0,0,0.35);
+}
+.jumbotron{
+    padding: 35px;
+    box-shadow: 0 3px 10px 0 rgba(0,0,0,0.35);
+}
+#header{
+    padding-right: 35px;
+    padding-left: 35px;
+    border-radius: 12px;
+}
+#header p{
+    color: black;
+}
+.jumbotron h2, p{
+    font-family: 'Roboto', sans-serif;
+}
+#contentBox{
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#contentBox h3, p{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}
+.btn{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    text-decoration: none;
+
+}
+.btn a{
+    color: #ffffff;
+}
+.btn:hover{
+    background-color: #ffffff;
+    color: #7565F7;
+}
+.btn a:hover{
+    color: #7565F7;
+}
+.footer{
+
+    background-color: #3a4e5d;
+    color: #ffffff;
+    
+}
