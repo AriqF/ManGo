@@ -185,7 +185,7 @@ function start(){
 }
 
 function redirectToPage(){
-    window.location.replace("katakana.html");
+    window.location.replace("katakana.php");
 }
 
 window.onload = function(){
