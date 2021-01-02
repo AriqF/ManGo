@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Katakana I</title>
+        <title>Man-Go | Katakana I</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
