@@ -4,7 +4,6 @@ body{
 .dropdown-item:hover{
     background-color: #ACACAC;
 }
-
 table img{
     width: 52.5px;
     height: 77px;
@@ -13,6 +12,49 @@ table img{
     transition: transform .4s;
     cursor: pointer;
 }
+.fadeInRight{
+    animation: fadeInRight 2s ease;
+}
+.fadeInLeft{
+    animation: fadeInLeft 2s ease;
+}
+.fadeInDown{
+    animation: fadeInDown 2s ease;
+}
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-40px);
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(40px);
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-40px);
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
 table img:hover{
     transform: scale(1.14);
 }
@@ -20,8 +62,7 @@ table img:hover{
     width: 100%;
     padding:20px;
     min-height: 100vh;
-    transition: all 0.3s;
-    
+    transition: all 0.3s;  
 }
 .container{
     background-color: #7565F7;
@@ -49,6 +90,7 @@ table img:hover{
     padding: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
+    animation: fadeInUp 2s ease;
 }
 #contentBox h3, p{
     font-family: 'Roboto', sans-serif;
@@ -59,7 +101,6 @@ table img:hover{
     color: #ffffff;
     border: 1px solid #ffffff;
     text-decoration: none;
-
 }
 .btn a{
     color: #ffffff;
@@ -75,5 +116,4 @@ table img:hover{
 
     background-color: #3a4e5d;
     color: #ffffff;
-    
 }
