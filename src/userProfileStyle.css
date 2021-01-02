@@ -1,0 +1,51 @@
+body{
+    background-color: #E0E0E0;
+    font-size: 18px;
+}
+.container{
+    background-color: #7565F7;
+    margin-top: 60px;
+    padding: 50px 40px 30px 40px;
+    border-radius: 12px;
+    box-shadow: 2px 5px 9px 0 rgba(0,0,0,0.35);
+}
+.container h2, p, label{
+    color: #ffffff;
+}
+#passBtn{
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 9px;
+    text-decoration: none;
+    width: 30%;
+}
+#passBtn:hover{
+    background-color: #ffffff;
+    color: #7565F7;
+}
+.form-control-plaintext{
+    border: 1px solid #6153D8;
+    padding-left: 15px;
+    border-radius: 8px;
+    background-color: transparent;
+}
+.form-control-plaintext:hover{
+    background-color: #887AFF;
+}
+.fadeInUp{
+    animation: fadeInDown 2s ease;
+}
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+
