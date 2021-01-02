@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Hiragana II</title>
+        <title>Katakana II</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -14,6 +14,9 @@
 
         <!--My css-->
         <link href="src/stylequiz.css" rel="stylesheet">
+
+        <!--Font Kit Icon-->
+        <script src="https://kit.fontawesome.com/6f51fa838f.js" crossorigin="anonymous"></script>
         
         <!--google font-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -53,8 +56,11 @@
                         </li>
                         
                         <li class="nav-item">
-                        <a class="nav-link" href="#">User Profile</a> <!--add userProfile.php later-->
-                        </li>       
+                            <a class="nav-link" href="userProfile.php">User Profile</a> 
+                        </li>   
+                        <li class="nav-item">
+                            <a class="nav-link" href="userProfile.php" title="Log Out"><i class="fas fa-sign-out-alt" style="font-size: 1.4em;"></i></a> 
+                        </li>      
                     </ul>        
                 </div>
             </nav>
@@ -119,7 +125,5 @@
       
     <script src="src/quizQuestion.js"></script>    
     <script src="src/app4.js"></script>
-    </body>
-    
-    
+    </body>  
 </html>
