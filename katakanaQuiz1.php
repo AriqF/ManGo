@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Hiragana II</title>
+        <title>Katakana I</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -123,8 +123,5 @@
       
     <script src="src/quizQuestion.js"></script>    
     <script src="src/app3.js"></script>
-    </body>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    
+    </body>    
 </html>
