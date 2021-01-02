@@ -14,13 +14,15 @@
 
         <!--My css-->
         <link href="src/stylequiz.css" rel="stylesheet">
+
+        <!--Font Kit Icon-->
+        <script src="https://kit.fontawesome.com/6f51fa838f.js" crossorigin="anonymous"></script>
         
         <!--google font-->
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-
     </head>
     <body>
 
@@ -53,8 +55,11 @@
                     </li>
                     
                     <li class="nav-item">
-                    <a class="nav-link" href="#">User Profile</a> <!--add userProfile.php later-->
-                    </li>       
+                      <a class="nav-link" href="userProfile.php">User Profile</a> 
+                    </li>   
+                    <li class="nav-item">
+                        <a class="nav-link" href="userProfile.php" title="Log Out"><i class="fas fa-sign-out-alt" style="font-size: 1.4em;"></i></a> 
+                    </li>        
                 </ul>        
             </div>
         </nav>
@@ -120,5 +125,6 @@
     <script src="src/app3.js"></script>
     </body>
     
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     
 </html>
