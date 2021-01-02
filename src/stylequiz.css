@@ -113,7 +113,6 @@ body{
         opacity: 1;
     }
 }
-
 .quiz-box .option-container .option.correct::before{
     content: '';
     position: absolute;
@@ -187,7 +186,6 @@ body{
 table{
     text-align: center;
 }
-
 .result-box h1{
     font-size: 36px;
     line-height: 42px;
