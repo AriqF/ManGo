@@ -201,7 +201,7 @@ function start(){
 }
 
 function redirectToPage(){
-    window.location.replace("hiragana.html");
+    window.location.replace("hiragana.php");
 }
 
 window.onload = function(){
