@@ -60,7 +60,7 @@
         
         <div class="content">
             <div class="container">
-                <div class="jumbotron" id="header">
+                <div class="jumbotron fadeInDown" id="header">
                     <h2>
                         Hiragana
                     </h2>
@@ -79,7 +79,7 @@
                     <table class="table-sm">
                         <tbody>
                             <tr>
-                                <table class="table-sm mx-auto">    <!--left side table-->
+                                <table class="table-sm mx-auto fadeInRight">    <!--left side table-->
                                     <tbody> 
                                         <tr>
                                             <td><img class="img-fluid" src="src/img//hira/a.png"></td>
@@ -144,7 +144,7 @@
                                 
                             </tr>
                             <tr>  
-                                <table class="table-sm mx-auto">    <!--Right side table-->
+                                <table class="table-sm mx-auto fadeInLeft">    <!--Right side table-->
                                     <tbody>
                                         <tr>
                                             <td><img class="img-fluid" src="src/img//hira/ga.png"></td>
@@ -274,9 +274,5 @@
                 </div>
             </div>
         </div>
-
-
     </body>
-
-    
 </html>
