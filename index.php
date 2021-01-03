@@ -13,27 +13,21 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
     <!--My css-->
-    <link href="src/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="src/index.css ?v=<?php echo time(); ?>" >
     
     <!--google font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 
     <title>Man-Go</title>
-    <script>
-
-    </script>
   </head>
 
   <body>
     <!--NavBar-->
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgba(17, 17, 17, 0.75);">
-      
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-
-
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
@@ -51,13 +45,10 @@
           <li class="nav-item active">
             <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
           </li>
-        </ul>
-        
+        </ul> 
       </div>
     </nav>
-
-
-    <header class="pagehead"></div>
+    <header class="pagehead">
       <div class="container h-100">
 
         <div class="row h-100 align-items-center">
@@ -69,9 +60,8 @@
             </button>
             <div class="w-100"></div>
             <button type="button" class="btn btn-primary" onclick="scrollWin(0,780)" id="startbtn2">
-              Explore More &#187
+              Explore More
             </button>
-            
             <!-- Modal -->
             <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
               <div class="modal-dialog" role="document">
@@ -86,86 +76,76 @@
                     Do You Already Have An Account?
                   </div>
                   <div class="modal-footer">
-                    <a href="User_Regist/index1.php" style="color: white;" ><button type="button" class="btn btn-secondary">Yes</button></a>
-                    <a href="User_Regist/signup.php" style="color: white;"><button type="button" class="btn btn-primary">Nope, Let Me Sign Up</button></a>
+                    <button type="button" class="btn btn-secondary"><a href="User_Regist/index1.php" style="color: white;" class="nav-link" >Yes</a></button>
+                    <button type="button" class="btn btn-primary"><a href="User_Regist/signup.php" style="color: white;" class="nav-link" >Nope, Let Me Sign Up!</a></button>
                   </div>
                 </div>
               </div>
             </div>
-
           </div>
         </div>
     </header>
 
-    <div class="container">
-      <div class="row" id="page2row">
-          <div class="col-sm-4">
-              <img src="src/img/mascot.png" id="mascot3"> <!--mascot-->
-          </div>
-          <div class="col-sm-8">
-              <h3 class="text-left">Learn With The Best New Method</h3>
-              <p class="lead">Our method is very easy to understand even for beginner who doesn't have any basic fundamental </p>
-          </div>
+    <div class="container" style="margin-top: 40px">
+      <table class="table-sm mx-auto">
+        <tbody>
+          <tr>
+            <td>
+              <img class="mx-auto" src="src/img/readbook.png" id="mascot3"> 
+            </td>
+          </tr>
+        </tbody>
+      </table>
+      <hr>
+      <tr class="spacer"></tr>
+      <table class="table-sm mx-auto">
+        <tbody>
+          <tr>
+            <td>
+            <h3 class="text-center">Learn With The Best New Method</h3>
+            <p class="lead">Our method is very easy to understand even for beginner who doesn't have any basic fundamental </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
-      </div>
+    <div class="container" style="margin-top: 40px">
+      <table class="table-sm mx-auto">
+        <tbody>
+          <tr>
+            <td>
+              <img class="mx-auto" src="src/img/anywhere.png" id="mascot3"> 
+            </td>
+          </tr>
+        </tbody>
+      </table>
       <hr>
-      <div class="row" id="page2row">
-          <div class="col-sm-4">
-              <img src="src/img/readbook.png" id="mascot3"> <!--mascot read book-->
-          </div>
-          <div class="col-sm-8">
-              <h3 class="text-left">Come Learn With Man-Go, We Have:</h3>
-              <li>
-                Unlimited Module Access
-              </li>
-              <li>
-                All-In And Per Part Kanji Dictionary
-              </li>
-              <li>
-                Tricky Way For Fast Learning
-              </li>
-              <li>
-                JLPT Mastering Concept
-              </li>
-              </ul>
-          </div>
-      </div>
-      <hr>
-      <div class="row" id="page2row">
-          <div class="col-sm-4">
-              <img src="src/img/anywhere.png" id="mascot3"> <!--mascot learn anywhere-->
-          </div>
-          <div class="col-sm-8">
-              <h3 class="text-left">Learn Any Where At Any Time</h3>
-              <p class="lead">Make you more productive in learning with responsive Man-Go learning</p>
-          </div>
-
-      </div>
-      <hr>
-  </div>
+      <tr class="spacer"></tr>
+      <table class="table-sm mx-auto">
+        <tbody>
+          <tr>
+            <td>
+            <h3 class="text-center">Learn Any Where At Any Time</h3>
+            <p class="lead">Make you more productive in learning with responsive Man-Go learning </p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   <div style="margin-bottom: 80px;"></div>
 
 <!-- Footer -->
-
 <footer class="page-footer font-small blue pt-4">
-
   <div class="container-fluid text-center text-md-left">
-
     <div class="row">
-
       <div class="col-md-6 mt-md-0 mt-3">
-
         <h5 class="text-uppercase">About Us</h5>
         <p>This website is created with the aim of fulfilling Web programming course assignments</p>
-
       </div>
-
       <hr class="clearfix w-100 d-md-none pb-3">
-
       <div class="col-md-3 mb-md-0 mb-3">
-
         <h5 class="text-uppercase">Our Team</h5>
-
         <ul class="list-unstyled">
           <li>
             <a href="https://github.com/AriqF">Ariq Fachry R</a>           
@@ -180,23 +160,15 @@
             <a href="https://github.com/muhammadalifh">M. Alif Hidayatullah</a>         
           </li>
         </ul>
-
       </div>
       <div class="col-md-3 mb-md-0 mb-3">
-
        <!-- Grid column -->
       </div>
     </div>
   </div>
-
   <div class="footer-copyright text-center py-3">© 2020 Department Of Informatics Surabaya State University</a>
   </div>
-
-</footer>
-
-    
-
-  
+</footer> 
   </body>
   <script src="node_modules/animejs/lib/anime.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
