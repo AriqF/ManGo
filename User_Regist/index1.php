@@ -54,19 +54,19 @@ if (!isset($_SESSION['id'])) {
 
             <h3 style="color: black;">Welcome, <?php echo $_SESSION['username']; ?> </h3>
 
-            <a href="index1.php?logout=1" class="logout">logout</a>
+            <!-- <a href="index1.php?logout=1" class="logout">logout</a> -->
             
             <?php if(!$_SESSION['verified']): ?>
                 <div class="alert alert-warning">
                     You need to verify your account.
                     Sign in to your emai account and click on the 
-                    verification link we just emailed yo at 
+                    verification link we just emailed you at 
                 <strong><?php echo $_SESSION['email']; ?> </strong>
                 </div>
             <?php endif; ?>
 
             <?php if($_SESSION['verified']): ?>
-                <button class="btn btn-block btn-lg btn-primary">I'm Verified</button>
+                <a href="../hiragana.php" style="text-decoration: none;"><button class="btn btn-block btn-lg btn-primary">I'm Verified</button></a>
             <?php endif; ?>
 
             </div>

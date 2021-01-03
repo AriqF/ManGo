@@ -37,8 +37,10 @@
 	   </div>
 	   <div class="link">
                 <p>No Account ? &nbsp;<a href="signup.php">Sign up</a></p>
-                <br>
                 <a href="forgot_password.php" style="color: white; ">Forgot Your Password?</a>
+				<br>
+				<br>
+				<a href="../index.php" style="color: white; "> 🏠 Back to home</a>
         </div>
  </form>
  

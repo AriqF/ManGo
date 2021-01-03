@@ -44,8 +44,8 @@
               Languange
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="dropdown">
-              <a class="dropdown-item bg-transparent" href="id.index.html" id="dropdownItem">Bahasa</a>
-              <a class="dropdown-item bg-transparent" href="index.html" id="dropdownItem">English</a>
+              <a class="dropdown-item bg-transparent" href="id.index.php" id="dropdownItem">Bahasa</a>
+              <a class="dropdown-item bg-transparent" href="index.php" id="dropdownItem">English</a>
             </div>
           </li>
           <li class="nav-item active">
@@ -177,7 +177,7 @@
             <a href="#!">Farhan Dwi Amugerah</a>         
           </li>
           <li>
-            <a href="github.com/muhammadalifh">M. Alif Hidayatullah</a>         
+            <a href="https://github.com/muhammadalifh">M. Alif Hidayatullah</a>         
           </li>
         </ul>
 

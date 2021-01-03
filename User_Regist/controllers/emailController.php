@@ -34,7 +34,7 @@ function SendVerificationEmail($userEmail, $token)
                 Thank you for signing up on our website. Please click on the link below
                 to verify your Email.
             </p>
-            <a href="http://localhost/ManGo-main/User_Regist/index1.php?token=' . $token . '">
+            <a href="http://localhost/ManGo/User_Regist/index1.php?token=' . $token . '">
                 Verify Your Email Address
             </a>
         </div>
@@ -71,7 +71,7 @@ function SendPasswordResetLink($userEmail, $token)
 
                 Please click on the link below to reset your password.
             </p>
-            <a href="http://localhost/ManGo-main/User_Regist/index1.php?password-token=' . $token . '">
+            <a href="http://localhost/ManGo/User_Regist/index1.php?password-token=' . $token . '">
                 Reset your password
             </a>
         </div>

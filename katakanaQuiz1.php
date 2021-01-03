@@ -55,10 +55,10 @@
                     </li>
                     
                     <li class="nav-item">
-                      <a class="nav-link" href="userProfile.php">User Profile</a> 
+                      <a class="nav-link" href="User_Regist/userProfile.php">User Profile</a> 
                     </li>   
                     <li class="nav-item">
-                        <a class="nav-link" href="userProfile.php" title="Log Out"><i class="fas fa-sign-out-alt" style="font-size: 1.4em;"></i></a> 
+                        <a class="nav-link" href="User_Regist/index1.php?logout=1" title="Log Out"><i class="fas fa-sign-out-alt" style="font-size: 1.4em;"></i></a> 
                     </li>        
                 </ul>        
             </div>
