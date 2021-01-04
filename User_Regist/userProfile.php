@@ -38,27 +38,27 @@ require_once 'controllers/authController.php';
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="../katakana.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="katakana.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Katakana
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="../katakana.php">Katakana</a>
+                            <a class="dropdown-item" href="katakana.php">Katakana</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="../katakanaQuiz1.php">Katakana Quiz I</a>
-                            <a class="dropdown-item" href="../katakanaQuiz2.php">Katakana Quiz II</a>
+                            <a class="dropdown-item" href="katakanaQuiz1.php">Katakana Quiz I</a>
+                            <a class="dropdown-item" href="katakanaQuiz2.php">Katakana Quiz II</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="../hiragana.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="hiragana.php" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Hiragana
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="../hiragana.php">Hiragana</a>
+                            <a class="dropdown-item" href="hiragana.php">Hiragana</a>
                             <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="../hiraganaQuiz1.php">Hiragana Quiz I</a>
-                            <a class="dropdown-item" href="../hiraganaQuiz2.php">Hiragana Quiz II</a>
+                            <a class="dropdown-item" href="hiraganaQuiz1.php">Hiragana Quiz I</a>
+                            <a class="dropdown-item" href="hiraganaQuiz2.php">Hiragana Quiz II</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="userProfile.php">User Profile</a> 
+                            <a class="nav-link" href="userProfile.php"><?php echo $_SESSION['username']; ?></a> 
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="index1.php?logout=1" title="Log Out"><i class="fas fa-sign-out-alt" style="font-size: 1.4em;"></i></a> 
