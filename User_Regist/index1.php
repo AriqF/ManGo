@@ -58,9 +58,10 @@ if (!isset($_SESSION['id'])) {
             
             <?php if(!$_SESSION['verified']): ?>
                 <div class="alert alert-warning">
-                    You need to verify your account.
-                    Sign in to your emai account and click on the 
-                    verification link we just emailed you at 
+                    You need to verify your account first to enter 
+                    the website. Sign in to your email account
+                    and click on the verification link we
+                    just emailed you at 
                 <strong><?php echo $_SESSION['email']; ?> </strong>
                 </div>
             <?php endif; ?>
