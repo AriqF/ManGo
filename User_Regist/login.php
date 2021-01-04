@@ -33,7 +33,7 @@
  	  	  </div>
  	  </div>
  	  <div class="form-field">
-			 <button type="submit" class="button" style="font-family: 'Ubuntu', sans-serif; font-size: 15px;" name="login-btn">L O G I N</button>
+			 <button type="submit" class="button" style="font-family: 'Ubuntu', sans-serif; font-size: 15px; cursor:pointer;" name="login-btn">L O G I N</button>
 	   </div>
 	   <div class="link">
                 <p>No Account ? &nbsp;<a href="signup.php">Sign up</a></p>
