@@ -45,7 +45,7 @@
  	  	  </div>
  	  </div>
  	  <div class="form-field">
-			 <button type="submit" class="button" style="font-family: 'Ubuntu', sans-serif; font-size: 15px;" name="signup-btn">S I G N &nbsp; U P</button>
+			 <button type="submit" class="button" style="font-family: 'Ubuntu', sans-serif; font-size: 15px; cursor:pointer;" name="signup-btn">S I G N &nbsp; U P</button>
 	   </div>
 	   <div class="link">
                 <p>Already a Member ? &nbsp;<a href="login.php">Sign In</a></p>
