@@ -66,7 +66,7 @@ if (!isset($_SESSION['id'])) {
             <?php endif; ?>
 
             <?php if($_SESSION['verified']): ?>
-                <a href="../hiragana.php" style="text-decoration: none;"><button class="btn btn-block btn-lg btn-primary">I'm Verified</button></a>
+                <a href="hiragana.php" style="text-decoration: none;"><button class="btn btn-block btn-lg btn-primary">I'm Verified</button></a>
             <?php endif; ?>
 
             </div>
