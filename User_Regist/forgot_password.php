@@ -34,7 +34,7 @@
  	  </div>
 
  	  <div class="form-field">
-			 <button type="submit" class="button" style="font-family: 'Ubuntu', sans-serif; font-size: 15px;" name="forgot-password">
+			 <button type="submit" class="button" style="font-family: 'Ubuntu', sans-serif; font-size: 15px; cursor:pointer;" name="forgot-password">
              R E C O V E R &nbsp; P A S S W O R D </button>
 	   </div>
  </form>
